@@ -1,0 +1,30 @@
+{
+   "name": "exchange-rest-api",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "build": "tsc",
+      "start": "ts-node src/main.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@hapi/hapi": "^21.3.3",
+      "@types/hapi": "^18.0.14",
+      "dotenv": "^16.4.5",
+      "joi": "^17.12.2",
+      "nats": "^2.19.0",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.20",
+      "typescript": "^5.4.2"
+   },
+   "devDependencies": {
+      "@types/node": "^16.11.10",
+      "ts-node": "10.9.1",
+      "typescript": "4.5.2"
+   }
+}
